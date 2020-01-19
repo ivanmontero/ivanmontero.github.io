@@ -1,22 +1,6 @@
-.info-img-container {
-    width: 100%;
-}
-
-.left {
-    float: left;
-    width: 100%;
-    /* width: 60%; */
-}
-
-.right {
-    float: right;
-    /* width: 40%; */
-}
-
 #ivan {
-    padding: 0% 0% 0% 10%;
-    /* margin: 0 auto; */
+    margin-left: 20px;
     height: 300px;
     display: block;
-    float:right;
+    float: right;
 }
