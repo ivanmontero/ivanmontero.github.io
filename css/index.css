@@ -4,3 +4,7 @@
     display: block;
     float: right;
 }
+
+#headline {
+    font-size: 2vh;
+}
