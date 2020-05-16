@@ -35,6 +35,10 @@ echo -e "\n${GREEN}Copy static files to distribution directory...${WHITE}"
 echo "> cp -r ./app/static/* ${DIST}/"
 cp -r ./app/static/* $DIST/
 
+echo -e "\n${GREEN}Copy CNAME to distribution directory...${WHITE}"
+echo "> cp -r ./CNAME ${DIST}/"
+cp -r ./CNAME $DIST/
+
 echo -e "\n${GREEN}Run parcel...${WHITE}"
 echo -e "> parcel build ./app/public/index.html -d ${DIST}\n"
 parcel build ./app/public/index.html -d $DIST
