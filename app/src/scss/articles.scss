@@ -6,7 +6,8 @@
   }
 
   h2 {
-    display: inline;
+    // display: inline;
+    margin: 0;
     font-size: 14px;
     font-weight: 400;
   }
@@ -46,5 +47,5 @@
 
 #articles-list-item {
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
