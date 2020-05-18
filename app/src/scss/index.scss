@@ -1,17 +1,24 @@
-#main-emoji-container {
-  max-width: 350px;
-  width: 100%;
-}
+// #main-emoji-container {
+//   max-width: 350px;
+//   width: 100%;
+// }
 
-#main-emoji {
-  width: 100%;
-}
+// #main-emoji {
+//   width: 100%;
+// }
 
-#github-heatmap {
-  width: 100%;
+// #github-heatmap {
+//   width: 100%;
+//   max-width: 800px;
+// }
+#main-container {
   max-width: 800px;
+  margin: 90px auto auto;
 }
 
 #ivan {
-  width: 25%
+  margin: 0px 0px 40px 40px; 
+  max-width: 300px;
+  display: block;
+  float: right;
 }
