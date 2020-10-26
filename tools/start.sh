@@ -26,6 +26,10 @@ echo -e "\n${GREEN}Publish the templates...${WHITE}"
 echo "> ts-node ./tools/publish.ts page"
 ts-node ./tools/publish.ts page
 
+echo -e "\n${GREEN}Copy juniper.min.js...${WHITE}"
+echo "> cp ./juniper.min.js ${PUBLIC}"
+cp ./juniper.min.js ${PUBLIC}
+
 echo -e "\n${GREEN}Reset server directory...${WHITE}"
 echo "> rm -r ./server/*"
 rm -r ./server/*
