@@ -43,6 +43,11 @@ echo -e "\n${GREEN}Copy requirements.txt to distribution directory...${WHITE}"
 echo "> cp -r ./requirements.txt ${DIST}/"
 cp -r ./requirements.txt $DIST/
 
+
+echo -e "\n${GREEN}Copy juniper.min.js to distribution directory...${WHITE}"
+echo "> cp -r ./juniper.min.js ${DIST}/"
+cp -r ./juniper.min.js $DIST/
+
 echo -e "\n${GREEN}Run parcel...${WHITE}"
 echo -e "> parcel build ./app/public/index.html -d ${DIST}\n"
 parcel build ./app/public/index.html -d $DIST

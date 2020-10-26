@@ -13,3 +13,9 @@ import torch
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 ```
+<pre data-executable>
+print('hello world!')
+</pre>
+
+<script src="juniper.min.js"></script>
+<script>new Juniper({ repo: 'ivanmontero/ivanmontero.github.io' })</script>
