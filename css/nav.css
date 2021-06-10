@@ -1,7 +1,7 @@
 #top-container {
     background-color: white;
     position: fixed;
-    padding-bottom: 5px;
+    padding: 2.5px;
     z-index: 999;
 }
 #top-container h1 {
