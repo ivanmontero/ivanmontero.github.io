@@ -18,12 +18,27 @@
 } */
 
 #ivan {
-  margin: 0px 0px 40px 40px; 
+  margin: 0px 0px 0px 40px; 
   max-width: 300px;
   display: block;
   float: right;
 }
 
 #about-me {
+  overflow: auto;
+}
+
+.pubtitle {
+  font-size: 17px;
+}
+
+.pubimage {
+  max-width: 200px;
+  max-height: 100%;
+  display: block;
+  float: right;
+}
+
+.pubtext {
   overflow: auto;
 }
